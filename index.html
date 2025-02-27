@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Equação do 2º Grau</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de Equação do 2º Grau</h1>
+  <table>
+    <form name="frmExemplo">
+      <tr>
+        <td>Valor de A:</td>
+        <td><input type="text" placeholder="0.0" size="8" name="txtA"></td>
+      </tr>
+      <tr>
+        <td>Valor de B:</td>
+        <td><input type="text" placeholder="0.0" size="8" name="txtB"></td>
+      </tr>
+      <tr>
+        <td>Valor de C:</td>
+        <td><input type="text" placeholder="0.0" size="8" name="txtC"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="button" value="Calcular Raízes" onclick="calcular_raizes()">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="button" value="Limpar" onclick="limparCampos()">
+        </td>
+      </tr>
+    </form>
+  </table>
+  <h2 id="Resposta"></h2>
+  <script src="jotex.js"></script>
+</body>
+</html>
